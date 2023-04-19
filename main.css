@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+@media (min-width: 768px) {
+    .container {
+    width: 750px;
+    }
+}
+  /* Medium */
+@media (min-width: 992px) {
+    .container {
+    width: 970px;
+    }
+}
+  /* Large */
+@media (min-width: 1200px) {
+    .container {
+    width: 1170px;
+    }
+}
+.container {
+    margin: auto; 
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* start div with class nav */ 
+.nav {
+    padding-top: 40px;
+}
+@media (max-width: 768px) {
+    .nav {
+        padding-top: 20px;
+        padding-left: 24px;
+    }
+}
+.nav .container p {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25.18px;
+    color: #333333;
+}
+/* end div with class nav */
+
+/* start div with class body */
+
+.body .container {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Space Mono', monospace;
+    padding-top: 100px;
+}
+@media (max-width: 768px) {
+    .body .container {
+        flex-direction: column;
+        padding-top: 50px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }     
+}
+.body .container img{
+    max-width: 539.22px;
+}
+.body .container div{
+    max-width: 586px;
+}
+
+/*      h1 in div what have body class */
+.body .container div h1{
+    color: #333333;
+    font-size: 64px;
+    line-height: 94.78px;
+    letter-spacing: -0.035em;
+}
+@media (max-width: 768px) {
+    .body .container div h1{
+    font-size: 48px;
+    line-height: 71.09px;
+    letter-spacing: -3.5%;
+    }     
+}
+
+/*      p in div what have body class */
+
+.body .container div p{
+    color: #4F4F4F;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35.54px;
+    letter-spacing: -0.035em;
+    max-width: 381px;
+    padding-top: 36px;
+    padding-bottom: 64px;
+}
+@media (max-width: 768px) {
+    .body .container div p {
+        padding-top: 30px;
+        padding-bottom: 66px;
+        font-size: 18px;
+        line-height: 26.66px;
+        letter-spacing: -3.5%;
+    }
+}
+
+/*      button in div what have body class */
+
+.body .container div button{
+    font-family: 'Space Mono', monospace;
+    color: #FFFFFF;
+    background: #333333;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20.73px;
+    text-transform: uppercase;
+    border: 0px;  
+    padding: 24px 43px;  
+}
+/* end div with class body  */
+
